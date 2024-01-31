@@ -4,7 +4,9 @@
 
 <div class="container">
 
-<h1><?php single_cat_title();?></h1>
+THIS IS CATEGORY BLOG TEMPLATE. WORDPRESS FOLLOW HIERARCHY AND AUTHOMATICALLY DISPLAY THIS TEMPLATE OF BLOG FIRST AND THEN GO TO ARCHIEVE.PHP WHICH IS DEFAULT ONE.
+
+<h1><?php single_cat_title();?></h1> 
 
 <?php get_template_part('includes/section','archieve');?>
 

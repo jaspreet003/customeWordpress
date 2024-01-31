@@ -29,6 +29,8 @@ add_action('wp_enqueue_scripts','load_js');
 //theme option
 add_theme_support('menus');
 
+add_theme_support('post-thumbnails');
+
 
 
 //Menus
@@ -43,3 +45,10 @@ register_nav_menus(
 
 		)
 );
+
+
+
+
+//custom image size
+add_image_size('blog-large', 800, 400, false); //here false will not hard crop your image but keep the ratio of your image and try to fit within your range
+add_image_size('blog-small', 300, 200, true); //here the true will crop your image to exact given size.
