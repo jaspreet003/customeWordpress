@@ -53,10 +53,20 @@
 	<?php endforeach;?>
 
 
+
 	<?php
 //5. add comment section template
+	
 	// comments_template();
 	?>
+
+
+
+
+	<?php 
+//6. if you want to add page breaks within same page or after each para, just 		go to wordpress and press alt shift and p. then later, write a simple		 code in single.php to show the links to all the subpages of that page.
+	?>
+
 
 
 <?php endwhile; else: endif;?>
