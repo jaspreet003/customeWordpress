@@ -2,7 +2,10 @@
 
 <section class="page-wrap">
 
-<div class="container">
+	<div class="container">
+
+
+
 
 <h1><?php single_cat_title();?></h1>
 
@@ -29,8 +32,10 @@ echo paginate_links(array(
 ) );
 */
 ?>
+	
+	</div>
 
-
-</div>
 </section>
+
+
 <?php get_footer();?>
